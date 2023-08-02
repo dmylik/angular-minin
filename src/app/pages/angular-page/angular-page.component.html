@@ -1,3 +1,9 @@
-<h1>
+<h1 bold-text>
   Angular is a very big black ASS.
 </h1>
+
+<app-children #childrenComponent></app-children>
+<button class="w-[100px] h-[50px] bg-green-400 rounded-full" (click)="childrenComponent.increment()">+</button>
+<button class="w-[100px] h-[50px] bg-red-400 rounded-full" (click)="childrenComponent.decrement()">-</button>
+<button class="w-[100px] h-[50px] bg-gray-400 rounded-full" (click)="childrenComponent.multiTwo()">*</button>
+<button class="w-[100px] h-[50px] bg-yellow-400 rounded-full" (click)="childrenComponent.deletelThree()">/</button>

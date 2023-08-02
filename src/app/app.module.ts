@@ -15,6 +15,9 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { ChildrenComponent } from './components/children/children.component';
+import { DoubleComponent } from './components/children/double/double.component';
+import { BoldTextDirective } from './directives/bold-text.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     AngularPageComponent,
     AboutPageComponent,
     ProductsPageComponent,
-    NavigationComponent
+    NavigationComponent,
+    ChildrenComponent,
+    DoubleComponent,
+    BoldTextDirective
   ],
   imports: [
     BrowserModule,
